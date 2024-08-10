@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Home</title>
+    <style>
+        /* Genel stil ayarları */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+            position: relative;
+        }
+        /* Başlık stili */
+        h1 {
+            margin-top: 50px;
+            color: #007bff;
+        }
+        /* Quiz başlatma butonunun stili */
+        .start-quiz {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        /* Quiz başlatma butonunun üzerine gelindiğinde değişen rengi */
+        .start-quiz:hover {
+            background: #218838;
+        }
+        /* En yüksek skorun görüntülenme stili */
+        .highest-score {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #FF6347;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        /* Footer stili */
+        footer {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Quiz</h1>
+    <a href="{{ url_for('quiz') }}" class="start-quiz">Start Quiz</a>
+    
+    <!-- En yüksek skorun görüntülenme alanı -->
+    <div class="highest-score">
+        Highest Score: {{ highest_score }}%
+    </div>
+
+    <footer>
+        <p>Developed by Barış KÜMET</p>
+    </footer>
+</body>
+</html>
