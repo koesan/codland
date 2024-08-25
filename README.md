@@ -2,8 +2,8 @@
 
 Bu proje, Flask kullanarak oluşturulmuş, Kullanıcıların cevaplarını girip değerlendirebileceği bir sınav formu sunar. 
 
-***Gerekli kütüphaneler***
 
+***Gerekli kütüphaneler***
 ```
 pip install Flask
 pip install Flask-SQLAlchemy
