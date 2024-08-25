@@ -4,11 +4,11 @@ Bu proje, Flask kullanarak oluşturulmuş basit bir sınav web sitesidir. Kullan
 
 gerekli kütüphaneler
 
-'''
+```
 pip install Flask
 
 pip install Flask-SQLAlchemy
-'''
+```
 
 ![Ekran Görüntüsü - 2024-08-25 06-19-12](https://github.com/user-attachments/assets/f5df18f0-9398-4b05-89c1-73e8b4c7f7cb)
 
