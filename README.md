@@ -1,3 +1,8 @@
+# Basit Sınav Web Sitesi
+
+
+Bu proje, Flask kullanarak oluşturulmuş basit bir sınav web sitesidir. Kullanıcıların cevaplarını girip değerlendirebileceği bir sınav formu sunar. 
+
 ![Ekran Görüntüsü - 2024-08-25 06-19-12](https://github.com/user-attachments/assets/f5df18f0-9398-4b05-89c1-73e8b4c7f7cb)
 
 ![Ekran Görüntüsü - 2024-08-25 06-19-16](https://github.com/user-attachments/assets/d7bd3d75-f678-42b2-af7f-c6d181cb63fa)
