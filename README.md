@@ -1,8 +1,8 @@
 # Basit Sınav Web Sitesi
 
-Bu proje, Flask kullanarak oluşturulmuş basit bir sınav web sitesidir. Kullanıcıların cevaplarını girip değerlendirebileceği bir sınav formu sunar. 
+Bu proje, Flask kullanarak oluşturulmuş, Kullanıcıların cevaplarını girip değerlendirebileceği bir sınav formu sunar. 
 
-gerekli kütüphaneler
+***Gerekli kütüphaneler***
 
 ```
 pip install Flask
